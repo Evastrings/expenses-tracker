@@ -1,0 +1,19 @@
+{
+  "name": "expenses-tracker",
+  "version": "1.0.0",
+  "description": "A site to track my spendings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Evastrings/expenses-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evastrings/expenses-tracker/issues"
+  },
+  "homepage": "https://github.com/Evastrings/expenses-tracker#readme"
+}
