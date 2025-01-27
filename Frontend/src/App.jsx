@@ -38,6 +38,7 @@ function App() {
         date,
         value: amount,
       });
+      window.location.reload();
     } catch (error) {
       console.log(error);
     }
