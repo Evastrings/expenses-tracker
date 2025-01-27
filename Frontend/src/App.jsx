@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { PieChart } from "@mui/x-charts/PieChart";
 import { FaTrash, FaEdit, FaWindowClose } from "react-icons/fa";
-//import { publicRequest } from "./requestMethods";
+import { publicRequest } from "./requestMethods";
 
 function App() {
   const [addExpense, setAddExpense] = useState(false);
@@ -119,7 +119,7 @@ function App() {
                 </label>
                 <input
                   type="text"
-                  placeholder="Snacks"
+                  placeholder="Jollof rice"
                   className="border-[#444]  p-[10px] outline-none"
                   onChange={(e) => setLabel(e.target.value)}
                 />
@@ -131,7 +131,7 @@ function App() {
                 </label>
                 <input
                   type="Number"
-                  placeholder="Snacks"
+                  placeholder="₦2000"
                   className="p-[10px] outline-none"
                   onChange={(e) => setValue(e.target.value)}
                 />
@@ -179,7 +179,7 @@ function App() {
                   ]}
                 />
                 <div>
-                  <strong>Total Expenses:</strong> ${totalSum}
+                  <strong>Total Expenses:</strong> ₦{totalSum}
                 </div>
               </div>
             )}
@@ -206,7 +206,7 @@ function App() {
                 </h2>
                 <h2 className="m-[20px] text-[18px]">{expense.date}</h2>
                 <h2 className="m-[20px] text-[18px] font-medium">
-                  ${expense.value}
+                ₦{expense.value}
                 </h2>
 
                 <div>
@@ -253,7 +253,7 @@ function App() {
             </label>
             <input
               type="text"
-              placeholder="20/11/2024"
+              placeholder="20/11/2025"
               className="p-[10px] outline-none"
               onChange={(e) => setUpdatedDate(e.target.value)}
             />
