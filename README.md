@@ -43,4 +43,9 @@ npm i axios
 4. npm run dev
 
 5. Open http://localhost:5173 to see the application
+
+Environment Variables:
+create a .env file and add the following:
+PORT: PORT number
+MONGOURL: DB_CONNECTION
    
