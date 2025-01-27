@@ -6,9 +6,13 @@ How to Launch Website:
 
 You need to have the following installed:
 Node.js
+
 NPM 
+
 Git
+
 nodemon
+
 
 Installation: 
 0. clone this repository: 
@@ -31,6 +35,8 @@ npm install @mui/x-charts
 npm install @mui/material @emotion/react @emotion/styled
 
 npm install @mui/styled-engine-sc styled-components
+
+npm axios
 
 
 3. Start the web application:
