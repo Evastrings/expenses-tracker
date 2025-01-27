@@ -36,7 +36,7 @@ npm install @mui/material @emotion/react @emotion/styled
 
 npm install @mui/styled-engine-sc styled-components
 
-npm axios
+npm i axios
 
 
 3. Start the web application:
